@@ -1,0 +1,44 @@
+
+h1 {
+  color: #f55800;
+  width: 566px;
+  height: 160px;
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 82px;
+}
+
+h2 {
+  width: 566px;
+  height: 24px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+
+  /* or 138% */
+
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+p {
+  width: 566px;
+  height: 123px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+
+  /* or 160% */
+
+
+  /* Neutrals/N20 */
+
+  color: #f4f5f7;
+}
