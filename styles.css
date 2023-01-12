@@ -1,44 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto:wght@700&display=swap");
 
-h1 {
-  color: #f55800;
-  width: 566px;
-  height: 160px;
-  font-family: 'Crete Round', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 72px;
-  line-height: 82px;
+.nav-bar {
+  display: flex;
+  max-width: 375px;
+  justify-content: space-between;
+  background-color: #3c3a39;
+  text-decoration: solid;
+  align-items: center;
 }
 
-h2 {
-  width: 566px;
-  height: 24px;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 32px;
-  line-height: 44px;
-
-  /* or 138% */
-
+.logo {
   display: flex;
-  align-items: center;
   color: #fff;
+  text-decoration: solid;
+  font-weight: 700;
+  line-height: 24px;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.menu {
+  margin-right: 10px;
+}
+
+h1 {
+  padding-top: 30px;
+  color: #ff6b00;
+  width: 300px;
+  font-family: "Crete Round", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 50px;
+  margin-bottom: 0;
+}
+
+h3 {
+  width: 300px;
+  height: 24px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 10px;
+  color: #fff5e1;
+  margin-bottom: 0;
 }
 
 p {
-  width: 566px;
-  height: 123px;
-  font-family: 'Inter', sans-serif;
+  width: 300px;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
-  line-height: 32px;
+  font-size: 16px;
+  line-height: 22px;
+  color: #fff;
+}
 
-  /* or 160% */
+.content {
+  display: flex;
+  max-width: 375px;
+  flex-direction: column;
+  align-items: center;
+  background: #1c1a19;
+  padding-bottom: 100px;
+  background-image: url("illustration.png");
+  background-position: top 150px right;
+  background-repeat: no-repeat;
+}
 
-
-  /* Neutrals/N20 */
-
-  color: #f4f5f7;
+.links {
+  list-style: none;
+  display: flex;
+  width: 340px;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
 }
