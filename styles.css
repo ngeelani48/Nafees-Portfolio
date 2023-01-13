@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto:wght@700&display=swap");
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .nav-bar {
   display: flex;
   max-width: 375px;
@@ -7,6 +13,7 @@
   background-color: #3c3a39;
   text-decoration: solid;
   align-items: center;
+  height: 85px;
 }
 
 .logo {
@@ -18,22 +25,22 @@
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   align-items: center;
-  margin-left: 10px;
+  margin-left: 20px;
 }
 
 .menu {
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
 h1 {
-  padding-top: 30px;
+  padding-top: 40px;
   color: #ff6b00;
   width: 300px;
-  font-family: "Crete Round", serif;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 30px;
-  line-height: 50px;
+  font-size: 56px;
+  line-height: 64px;
   margin-bottom: 0;
 }
 
@@ -44,9 +51,9 @@ h3 {
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
-  line-height: 10px;
+  line-height: 32px;
   color: #fff5e1;
-  margin-bottom: 0;
+  margin-bottom: 20px;
 }
 
 p {
@@ -60,22 +67,31 @@ p {
 }
 
 .content {
+  height: auto;
   display: flex;
-  max-width: 375px;
+  width: 375px;
   flex-direction: column;
   align-items: center;
   background: #1c1a19;
-  padding-bottom: 100px;
-  background-image: url("illustration.png");
+  padding-bottom: 125px;
+  background-image: url("./Illustration.png");
   background-position: top 150px right;
   background-repeat: no-repeat;
 }
 
 .links {
-  list-style: none;
+  margin-top: 20px;
   display: flex;
-  width: 340px;
-  align-items: center;
+  flex-direction: row;
+  align-items: flex-start;
   justify-content: flex-start;
+  padding: 0;
+  width: 300px;
+  height: 40px;
+
+  /* position: absolute; */
+  top: 430px;
+  left: 24px;
   gap: 20px;
+  list-style: none;
 }
