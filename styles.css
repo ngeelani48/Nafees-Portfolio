@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto:wght@700&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
@@ -32,7 +32,7 @@
   margin-right: 20px;
 }
 
-h1 {
+.my-name {
   padding-top: 40px;
   color: #ff6b00;
   width: 300px;
@@ -44,7 +44,7 @@ h1 {
   margin-bottom: 0;
 }
 
-h3 {
+.profession {
   width: 300px;
   height: 24px;
   font-family: "Roboto", sans-serif;
@@ -56,7 +56,7 @@ h3 {
   margin-bottom: 20px;
 }
 
-p {
+.i-can-do {
   width: 300px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -94,4 +94,13 @@ p {
   left: 24px;
   gap: 20px;
   list-style: none;
+}
+.my-work-title {
+
+color: #1c1a19;
+}
+.project-section {
+    display: flex;
+    flex-direction: column;
+    width: 375px;
 }
