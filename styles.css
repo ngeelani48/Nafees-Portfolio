@@ -372,3 +372,11 @@
   flex-direction: column;
   gap: 10px;
 }
+
+.button-resume:hover,
+.project1-button:hover,
+.project2-button:hover {
+  background-color: #f4f5f7;
+  color: #ff6b00;
+  cursor: pointer;
+}
