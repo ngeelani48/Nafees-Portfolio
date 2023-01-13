@@ -96,11 +96,153 @@
   list-style: none;
 }
 .my-work-title {
-
+width: 360px;
+font-family: "Crete Round", serif;
+font-style: normal;
 color: #1c1a19;
+font-weight: 400;
+font-size: 30px;
+line-height: 52px;
+text-align: center;
+ /* border-bottom: 1px solid #1c1a19; */
+}
+#line {
+    margin-top: 20px;
+    border: 1px solid;
+    width: 370px;
 }
 .project-section {
+    padding-top: 40px;
     display: flex;
     flex-direction: column;
     width: 375px;
+    align-items: center;
+}
+#works-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1em;
+    grid-row-gap: 50px; 
+}
+.project1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    padding-top: 250px;
+    background-image: url("./Project\ 1.png");
+    background-repeat: no-repeat;
+    background-position: top 30px center;
+    align-items: center;
+}
+.project1-title {
+    color: #091e42;
+    font-family: "Crete Round", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: -110px;
+}
+.project1-description { 
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 24px;
+  color: #091E42;
+  margin-left: 10px;
+}
+.project1-tech {
+    padding-top: 10px;
+    display: flex;
+    list-style: none;
+    gap: 10px; 
+    margin-left: -60px;
+}
+.project1-tech button {
+    padding: 10px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+}
+.project1-tech li {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #091E42;
+}
+.project1-button {
+    font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  padding: 10px;
+  background: #ff6b00;
+  color: #fff;
+  border-color: #ff6b00;
+  align-self:flex-start;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.project2 {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ background-image: url("./project2.png");
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 400px;
+}
+.project2-title {
+font-family: "Crete Round",sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 44px;
+width: 295px;
+height: 81px;
+padding-top: 80px;
+color:#ffffff ;
+}
+.project2-description {
+    width: 295px;
+    height: 87px;    
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-top: 86px;
+}
+.project2-tech {
+    display: flex;
+  list-style: none;
+  width: 295px;
+  gap: 10px;
+}
+.project2-tech button {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.24);
+    border: none;
+    padding: 10px; 
+    margin-top: 15px; 
+}
+.project2-button {
+background: #ff6b00;
+align-self: stretch;
+font-family: "Inter", sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 17px;
+line-height: 24px;
+padding: 10px;
+color: #FFFFFF;
+margin-top: 45px;
 }
