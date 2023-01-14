@@ -310,7 +310,7 @@
   width: 348px;
   margin-left: 15px;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 90px;
   padding-bottom: 20px;
   background-image: url("./Frame-about.png");
   background-repeat: no-repeat;
@@ -334,6 +334,10 @@
   align-items: center;
 }
 
+/* .skills {
+    margin-left: 20px;
+} */
+
 .language-word,
 .frameworks-word,
 .skills-word {
@@ -348,6 +352,7 @@
   color: #fff;
   width: 227px;
   height: 24px;
+  align-content: center;
 }
 
 .language-list,
@@ -362,7 +367,14 @@
   align-items: center;
   margin-top: 15px;
   padding: 10px;
-  align-content: space-around;
+}
+
+.skills-list li {
+  align-items: center;
+}
+
+.skills-word img {
+  margin-left: 40px;
 }
 
 .language-list,
@@ -376,7 +388,8 @@
 .button-resume:hover,
 .project1-button:hover,
 .project2-button:hover {
-  background-color: #f4f5f7;
-  color: #ff6b00;
+  background-color: #fff5e1;
+
+  /* color:  */
   cursor: pointer;
 }
