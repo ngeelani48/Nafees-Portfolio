@@ -168,6 +168,7 @@
   list-style: none;
   gap: 10px;
   margin-left: -60px;
+  float: left;
 }
 
 .project1-tech button {
@@ -307,8 +308,7 @@
   padding: 1em;
   grid-row-gap: 25px;
   background-color: #1c1a19;
-  width: 348px;
-  margin-left: 15px;
+  width: 375px;
   align-items: center;
   margin-top: 90px;
   padding-bottom: 20px;
@@ -321,7 +321,7 @@
   width: 327px;
   border: 1px solid #fff;
   margin-top: 120px;
-  margin-left: -10px;
+  /* margin-left: -10px; */
   margin-bottom: 80px;
 }
 
