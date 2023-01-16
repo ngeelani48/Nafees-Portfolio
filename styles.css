@@ -237,6 +237,7 @@
   list-style: none;
   width: 295px;
   gap: 10px;
+  float: left;
 }
 
 .project2-tech button {
