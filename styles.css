@@ -486,8 +486,9 @@ background-color:#DBD8D7;
   border: none;
   color: #fff;
   margin-top: 20px;
-  display: flex;
-  align-self: center;
+  /* display: flex; */
+  letter-spacing: 0.03em;
+  margin-left: 124px;
 }
 
 .line-contactform {
@@ -505,7 +506,6 @@ background-color:#DBD8D7;
   margin-top: 30px;
   margin-bottom: 30px;
 }
-
 .linefooter-contactform {
   display: block;
   width: 134px;
