@@ -392,3 +392,58 @@
   /* color:  */
   cursor: pointer;
 }
+
+#contactform {
+  background-color: #E5E5E5;
+  width: 375px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#intro-contactform {
+  width: 327px;
+display: flex;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 44px;
+text-align: center;
+padding-left: 49px;
+color: #172B4D;
+margin-top: 10px;
+margin-bottom: 30px;
+padding:
+}
+
+#contactform-line {
+  position: absolute;
+height: 5px;
+left: 0px;
+right: 0px;
+bottom: 0px;
+color: #091e42;
+
+}
+
+.button-contactform {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 12px;
+gap: 10px;
+width: 131px;
+height: 48px;
+background: #FF6B00;
+}
+
+.linefooter-contactform {
+  position: absolute;
+width: 134px;
+height: 5px;
+left: calc(50% - 134px/2 - 0.5px);
+bottom: 8px;
+background: #0D151E;
+border-radius: 10px;
+}
