@@ -6,15 +6,16 @@
   margin: 0;
   padding: 0;
 }
-
 .nav-bar {
   display: flex;
-  max-width: 375px;
+  width: 100%;
   justify-content: space-between;
   background-color: #3c3a39;
-  text-decoration: solid;
   align-items: center;
   height: 85px;
+}
+#nav-menu {
+ display: none;
 }
 
 .logo {
@@ -27,16 +28,20 @@
   font-size: 18px;
   align-items: center;
   margin-left: 20px;
+  padding: 0 1rem;
 }
 
 .menu {
   margin-right: 20px;
+  position: relative;
+  display: inline-block;
+  margin: 0 4rem;
 }
 
 .my-name {
   padding-top: 40px;
   color: #ff6b00;
-  width: 300px;
+  width: 80%;
   font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -46,7 +51,6 @@
 }
 
 .profession {
-  width: 300px;
   height: 24px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -58,7 +62,6 @@
 }
 
 .i-can-do {
-  width: 300px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -68,13 +71,13 @@
 }
 
 .content {
-  height: auto;
   display: flex;
-  width: 375px;
+  width: 100%;
   flex-direction: column;
   align-items: center;
   background: #1c1a19;
-  padding-bottom: 125px;
+  padding-bottom: 10rem;
+  padding-left: 1rem;
   background-image: url("./images/Illustration.png");
   background-position: top 150px right;
   background-repeat: no-repeat;
@@ -87,7 +90,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   padding: 0;
-  width: 300px;
+  width: 70%;
   height: 40px;
   top: 430px;
   left: 24px;
@@ -96,31 +99,31 @@
 }
 
 .my-work-title {
-  width: 360px;
   font-family: "Crete Round", serif;
   font-style: normal;
   color: #1c1a19;
   font-weight: 400;
-  font-size: 30px;
+  font-size: 40px;
   line-height: 52px;
   text-align: center;
+  display: inline-block;
 }
 
 #line {
   margin-top: 20px;
   border: 1px solid;
-  width: 370px;
+  width: 90%;
 }
 
 .project-section {
   padding-top: 40px;
   display: flex;
   flex-direction: column;
-  width: 375px;
   align-items: center;
 }
 
 #works-section {
+  margin-top: 2rem;
   display: grid;
   grid-template-columns: 1fr;
   padding: 1em;
@@ -131,11 +134,13 @@
   display: flex;
   flex-direction: column;
   margin-top: 5px;
-  padding-top: 250px;
+  padding-top: 1rem;
   background-image: url("./images/Project\ 1.png");
   background-repeat: no-repeat;
   background-position: top 30px center;
+  background-size: 100%;
   align-items: center;
+  width: 100%;
 }
 
 .project1-title {
@@ -143,21 +148,19 @@
   font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 27px;
-  line-height: 40px;
+  font-size: 32px;
+  line-height: 44px;
   text-align: center;
-  margin-top: 30px;
-  margin-left: -110px;
+  margin-top: 350px;
+  margin-left: -200px;
 }
 
 .project1-description {
   font-family: "Inter", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  font-style: normal;
   line-height: 24px;
   color: #091e42;
-  margin-left: 10px;
 }
 
 .project1-tech {
@@ -165,7 +168,7 @@
   display: flex;
   list-style: none;
   gap: 10px;
-  margin-left: -60px;
+  width: 100%;
 }
 
 .project1-tech button {
@@ -192,7 +195,7 @@
   border-color: #ff6b00;
   align-self: flex-start;
   margin-top: 10px;
-  margin-left: 10px;
+  /* margin-left: 10px; */
 }
 
 .project2 {
@@ -202,7 +205,9 @@
   background-image: url("./images/project2.png");
   background-repeat: no-repeat;
   background-size: cover;
+  justify-content: flex-end;
   height: 400px;
+  width: 100%;
 }
 
 .project2-title {
@@ -211,14 +216,14 @@
   font-weight: 400;
   font-size: 32px;
   line-height: 44px;
-  width: 295px;
+  /* width: 295px; */
   height: 81px;
   padding-top: 80px;
   color: #fff;
 }
 
 .project2-description {
-  width: 295px;
+  /* width: 295px; */
   height: 87px;
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -247,6 +252,7 @@
   border: none;
   padding: 10px;
   margin-top: 15px;
+  width: 100%;
 }
 
 .project2-button {
@@ -264,24 +270,26 @@
 
 .about-title {
   font-family: "Crete Round", sans-serif;
-  width: 327px;
+  /* width: 327px; */
   height: 79px;
   font-style: normal;
   font-weight: 400;
-  font-size: 32px;
+  font-size: 52px;
   line-height: 88px;
   color: #ff6b00;
-  margin-top: 70px;
+  margin-top: 80px;
+  text-align: center;
 }
 
 .about-description {
-  width: 327px;
+  /* width: 327px; */
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: #f4f5f7;
+  text-align: center;
 }
 
 .button-resume {
@@ -305,7 +313,7 @@
   padding: 1em;
   grid-row-gap: 25px;
   background-color: #1c1a19;
-  width: 375px;
+  /* width: 375px; */
   align-items: center;
   margin-top: 90px;
   padding-bottom: 20px;
@@ -315,9 +323,9 @@
 }
 
 .about-line {
-  width: 327px;
+  width: 100%;
   border: 1px solid #fff;
-  margin-top: 120px;
+  margin-top: 150px;
   margin-left: -10px;
   margin-bottom: 80px;
 }
@@ -393,7 +401,9 @@
   color: #fff;
   margin-top: 20px;
   letter-spacing: 0.03em;
-  margin-left: 124px;
+  display: table;
+  margin: 0 auto;
+  /* margin-left: 124px; */
 }
 
 .button-resume:hover,
@@ -407,7 +417,7 @@
 }
 
 #contactform {
-  width: 375px;
+  /* width: 375px; */
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -427,6 +437,7 @@
   color: #172b4d;
   margin-bottom: 30px;
   align-content: center;
+  text-align: center;
   align-items: center;
 }
 
@@ -477,7 +488,7 @@
 }
 
 #contactform-line {
-  width: 327px;
+  width: 100%;
   height: 1px;
   left: 0;
   right: 0;
@@ -502,16 +513,26 @@
 
 .linefooter-contactform {
   display: block;
-  width: 134px;
+  width: 35%;
   height: 5px;
   bottom: 8px;
   background: #0d151e;
   border-radius: 10px;
-  margin-left: 125px;
-  margin-bottom: 5px;
+  /* margin-left: 125px; */
+  margin-bottom: 10px;
+ align-self: center;
 }
 @media (min-width:768px) {
-  
+.nav-bar{
+  justify-content: space-around;
+} 
+.menu{
+  display: none;
+}  
+.logo {
+  font-size: 20px;
+  line-height: 20px;
 }
-  
+#nav-menu a {
+}  
 }
