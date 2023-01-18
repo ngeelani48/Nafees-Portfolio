@@ -524,15 +524,63 @@
 }
 @media (min-width:768px) {
 .nav-bar{
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
 } 
-.menu{
+#menu-icon{
   display: none;
 }  
 .logo {
   font-size: 20px;
   line-height: 20px;
 }
-#nav-menu a {
-}  
+#nav-menu {
+  position: static;
+    display: flex;
+    z-index: 0;
+    align-items: center;
+    justify-content: center;
+  } 
+  #nav-menu a {
+    color: #ffffff;
+  display: block;
+  padding: 1rem 2rem;
+  font-size: 15px;
+  line-height: 20px;
+  font-style: normal;  
+  text-decoration: solid;
+  } 
+  .content {
+    height: 100vh;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 4rem;
+    background-image: url("./images/Illustration-header2.png");
+    background-repeat: no-repeat;
+    background-size: 45%;
+    background-position: center right;
+  }
+  .my-name {
+    font-size: 72px;
+    line-height: 82px;
+    width: 50%;
+  }
+  .profession {
+    font-size: 32px;
+    line-height: 44px;
+  }
+  .i-can-do {
+    font-size: 20px;
+    line-height: 32px;
+    width: 45%;
+  }
+  .links {
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-around;
+    height: max-content;
+    width: fit-content;
+    margin-left: 1rem;
+  }
 }
