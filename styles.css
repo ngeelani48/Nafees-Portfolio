@@ -75,7 +75,7 @@
   align-items: center;
   background: #1c1a19;
   padding-bottom: 125px;
-  background-image: url("./Illustration.png");
+  background-image: url("./images/Illustration.png");
   background-position: top 150px right;
   background-repeat: no-repeat;
 }
@@ -104,8 +104,6 @@
   font-size: 30px;
   line-height: 52px;
   text-align: center;
-
-  /* border-bottom: 1px solid #1c1a19; */
 }
 
 #line {
@@ -134,7 +132,7 @@
   flex-direction: column;
   margin-top: 5px;
   padding-top: 250px;
-  background-image: url("./Project\ 1.png");
+  background-image: url("./images/Project\ 1.png");
   background-repeat: no-repeat;
   background-position: top 30px center;
   align-items: center;
@@ -201,7 +199,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url("./project2.png");
+  background-image: url("./images/project2.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 400px;
@@ -311,7 +309,7 @@
   align-items: center;
   margin-top: 90px;
   padding-bottom: 20px;
-  background-image: url("./Frame-about.png");
+  background-image: url("./images/Frame-about.png");
   background-repeat: no-repeat;
   background-position: top 305px right;
 }
@@ -332,10 +330,6 @@
   flex-direction: column;
   align-items: center;
 }
-
-/* .skills {
-    margin-left: 20px;
-} */
 
 .language-word,
 .frameworks-word,
@@ -413,7 +407,6 @@
 }
 
 #contactform {
-  /* background-color: #E5E5E5; */
   width: 375px;
   display: flex;
   flex-direction: column;
@@ -516,4 +509,9 @@
   border-radius: 10px;
   margin-left: 125px;
   margin-bottom: 5px;
+}
+@media (min-width:768px) {
+  
+}
+  
 }
