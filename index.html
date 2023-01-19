@@ -206,6 +206,7 @@
     </section>
 
         <div id="contactform">
+            <div class="contact-writing">
             <p id="intro-contactform">I'm always <br> interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
             <form action="https://formspree.io/f/xoqzvdpw" id="contact-input" method="post">
                 <ul>
@@ -213,10 +214,16 @@
                     <hr id="contactform-line">
                     <li><input type="email" id="name-contactform" name="Email address" placeholder="Email address" required></li>
                     <hr id="contactform-line">
+                    <div class="textarea-mobile">
                     <li><textarea name="Enter text here" id="text-contactform" placeholder="Enter text here" maxlength="500" required></textarea></li>
+                </div>
+                <div class="textarea-desktop">
+                    <li><textarea name="Enter text here" id="text-contactform" placeholder="Hello. I would like to get in touch with you..." maxlength="500" required></textarea></li>
+                </div>
                 </ul>
-                <button class="button-contactform">Get in touch</button>
+                <button type="submit" class="button-contactform">Get in touch</button>
             </form>
+        </div>
             <hr class="line-contactform">
             <footer class="footer-contactform">
                 <ul class="links-footer">
