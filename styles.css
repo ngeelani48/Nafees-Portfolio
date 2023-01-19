@@ -30,14 +30,12 @@
   font-size: 18px;
   align-items: center;
   margin-left: 20px;
-  padding: 0 1rem;
 }
 
 .menu {
-  /* margin-right: 20px; */
   position: relative;
   display: inline-block;
-  margin: 0 4rem;
+  padding: 0 1rem;
 }
 
 .my-name {
@@ -70,6 +68,7 @@
   font-size: 16px;
   line-height: 22px;
   color: #fff;
+  height: 400%;
 }
 
 .content {
@@ -81,23 +80,21 @@
   padding-bottom: 10rem;
   padding-left: 1rem;
   background-image: url("./images/Illustration.png");
-  background-position: top 150px right;
+  background-position: top 8rem right;
   background-repeat: no-repeat;
 }
 
 .links {
-  margin-top: 20px;
+  margin-top: 2rem;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0;
   width: 70%;
   height: 40px;
-  top: 430px;
-  left: 24px;
   gap: 20px;
   list-style: none;
+  margin-left: -8rem;
 }
 
 .my-work-title {
@@ -118,7 +115,7 @@
 }
 
 .project-section {
-  padding-top: 40px;
+  padding-top: 4rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -276,6 +273,7 @@
 
 .about-title {
   font-family: "Crete Round", sans-serif;
+  width: 90%;
 
   /* width: 327px; */
   height: 79px;
@@ -285,18 +283,20 @@
   line-height: 88px;
   color: #ff6b00;
   margin-top: 80px;
-  text-align: center;
+  text-align: start;
 }
 
 .about-description {
   /* width: 327px; */
+  width: 90%;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: #f4f5f7;
-  text-align: center;
+  text-align: flex-start;
+  padding-top: 2rem;
 }
 
 .button-resume {
@@ -311,7 +311,7 @@
   padding: 12px;
   border: none;
   color: #fff;
-  margin-top: 20px;
+  margin-top: 2rem;
 }
 
 #about-section {
@@ -407,13 +407,9 @@
   gap: 10px;
   border: none;
   color: #fff;
-
-  /* margin-top: 20px; */
   letter-spacing: 0.03em;
   display: table;
-  margin: 0 auto;
-
-  /* margin-left: 124px; */
+  margin: 1.5rem auto;
 }
 
 .button-resume:hover,
@@ -495,7 +491,7 @@
 }
 
 #contactform-line {
-  width: 100%;
+  width: 65%;
   height: 1px;
   left: 0;
   right: 0;
@@ -608,6 +604,10 @@
     margin-left: 1rem;
   }
 
+  .project-section {
+    margin-top: 4rem;
+  }
+
   .my-recent-works {
     display: flex;
     width: 90%;
@@ -617,7 +617,7 @@
   }
 
   .my-work-title {
-    width: 75%;
+    width: 70%;
     margin-right: 0;
   }
 
@@ -663,10 +663,10 @@
 
   .project1-content {
     margin-top: 0;
-    width: 50%;
+    width: 30%;
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: center;
     align-items: flex-start;
     gap: 1rem;
   }
@@ -755,8 +755,9 @@
     flex-direction: column;
     justify-content: flex-start;
     justify-self: flex-start;
-    text-align: left;
+    text-align: start;
     gap: 1rem;
+    margin-left: 4rem;
   }
 
   .about-description {
@@ -787,6 +788,9 @@
   #intro-contactform {
     display: flex;
     justify-content: center;
+    width: 40%;
+    text-align: left;
+    margin-left: 4rem;
   }
 
   textarea {
@@ -794,7 +798,7 @@
   }
 
   form {
-    width: 80%;
+    width: 100%;
   }
 
   #contact-input li {
