@@ -790,26 +790,32 @@
     margin-left: 10rem;
     margin-top: -4rem;
     font-weight: 700;
-font-size: 40px;
-line-height: 52px;
-color: #262626;
+    font-size: 40px;
+    line-height: 52px;
+    color: #262626;
   }
+
   #contact-input ul {
     align-items: flex-start;
   }
+
   .textarea-desktop {
     display: contents;
   }
+
   #text-contactform {
     width: 45rem;
-    margin-top: 0rem;
+    margin-top: 0;
   }
-  .textarea-mobile{
+
+  .textarea-mobile {
     display: none;
   }
+
   #contactform-line {
     width: 45rem;
   }
+
   .button-contactform {
     margin: 1.5rem 0;
   }
