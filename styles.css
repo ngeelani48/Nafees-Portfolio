@@ -244,6 +244,10 @@
   gap: 10px;
 }
 
+.project5-tech {
+  align-self: baseline;
+}
+
 .project2-tech button {
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -611,15 +615,18 @@
 
   .my-recent-works {
     display: flex;
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
     align-items: center;
     justify-content: center;
   }
 
   .my-work-title {
-    width: 70%;
+    width: 75%;
     margin-right: 0;
+    white-space: nowrap;
+
+    /* overflow: hidden; */
   }
 
   #line {
@@ -741,13 +748,12 @@
     justify-content: flex-end;
     height: 400px;
     width: 100%;
-
-    /* align-self: center;  */
   }
 
   #about-section {
     background-image: url("./images/about-desktop.png");
-    background-position: top 6rem right;
+    background-position: top 9rem right;
+    background-size: 50%;
   }
 
   .about-content {
@@ -771,6 +777,7 @@
     font-size: 72px;
     line-height: 82px;
     width: 50%;
+    white-space: nowrap;
   }
 
   .skill-section {
