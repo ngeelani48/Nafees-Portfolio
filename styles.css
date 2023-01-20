@@ -158,6 +158,12 @@
   width: 100%;
   padding-top: 10%;
   height: 20rem;
+  transition: width 3s, ease-in, height 1s;
+}
+
+.project1-picture:hover {
+  transform: scale(1.025);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .project1-title {
@@ -225,6 +231,12 @@
   height: 400px;
   width: 100%;
   align-self: center;
+  transition: width 3s, ease-in, height 1s;
+}
+
+.project2:hover {
+  transform: scale(1.025);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .project2-title {
@@ -487,6 +499,11 @@
   margin-bottom: -5px;
   color: #979493;
   width: 295px;
+  transition: transform 1.5s;
+}
+
+#name-contactform:hover {
+  transform: translateX(15%);
 }
 
 #text-contactform {
