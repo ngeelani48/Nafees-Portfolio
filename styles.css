@@ -789,17 +789,23 @@
     display: flex;
     margin-top: 5rem;
     align-items: center;
+    align-self: center;
   }
 
   #intro-contactform {
-    text-align: left;
-    width: 30%;
+    display: flex;
+
+    /* text-align: left; */
+    width: 35%;
     margin-left: 10rem;
     margin-top: -4rem;
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
     color: #262626;
+    text-align: start;
+
+    /* height: 20%; */
   }
 
   #contact-input ul {
@@ -810,8 +816,12 @@
     display: contents;
   }
 
+  form {
+    width: 50%;
+  }
+
   #text-contactform {
-    width: 45rem;
+    width: 45vw;
     margin-top: 0;
   }
 
@@ -820,7 +830,7 @@
   }
 
   #contactform-line {
-    width: 45rem;
+    width: 45vw;
   }
 
   .button-contactform {
