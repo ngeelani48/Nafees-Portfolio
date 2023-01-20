@@ -1,6 +1,6 @@
 <a name="readme-top"></a>
 <div align="center">
-  <img src="NGeelani logo.png" alt="logo" width="140"  height="auto" />
+  <img src="images/NGeelani logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>MY-Portfolio</b></h3>

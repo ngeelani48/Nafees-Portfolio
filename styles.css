@@ -625,8 +625,6 @@
     width: 75%;
     margin-right: 0;
     white-space: nowrap;
-
-    /* overflow: hidden; */
   }
 
   #line {
@@ -636,7 +634,7 @@
 
   #works-section {
     grid-template-columns: auto auto auto;
-    grid-column-gap: 3rem;
+    grid-column-gap: 1rem;
     padding-top: 7rem;
     width: 90%;
     margin: 0 auto;
