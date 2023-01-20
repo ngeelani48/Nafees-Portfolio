@@ -30,6 +30,21 @@
   font-size: 18px;
   align-items: center;
   margin-left: 20px;
+  animation-name: logoo;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 1s;
+  animation-iteration-count: 1;
+}
+
+@keyframes logoo {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(359deg);
+  }
 }
 
 .menu {
