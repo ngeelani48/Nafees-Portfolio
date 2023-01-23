@@ -216,8 +216,6 @@
   border-color: #ff6b00;
   align-self: flex-start;
   margin-top: 10px;
-
-  /* margin-left: 10px; */
 }
 
 .project2 {
@@ -245,15 +243,12 @@
   font-weight: 400;
   font-size: 32px;
   line-height: 44px;
-
-  /* width: 295px; */
   height: 81px;
   padding-top: 80px;
   color: #fff;
 }
 
 .project2-description {
-  /* width: 295px; */
   height: 87px;
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -305,8 +300,6 @@
 .about-title {
   font-family: "Crete Round", sans-serif;
   width: 90%;
-
-  /* width: 327px; */
   height: 79px;
   font-style: normal;
   font-weight: 400;
@@ -318,7 +311,6 @@
 }
 
 .about-description {
-  /* width: 327px; */
   width: 90%;
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -351,8 +343,6 @@
   padding: 1em;
   grid-row-gap: 25px;
   background-color: #1c1a19;
-
-  /* width: 375px; */
   align-items: center;
   margin-top: 90px;
   padding-bottom: 20px;
@@ -360,7 +350,6 @@
   background-repeat: no-repeat;
   background-position: top 305px right;
 }
-
 .about-line {
   width: 100%;
   border: 1px solid #fff;
@@ -368,7 +357,6 @@
   margin-left: -10px;
   margin-bottom: 80px;
 }
-
 .language,
 .frameworks,
 .skills {
@@ -377,7 +365,6 @@
   flex-direction: column;
   align-items: center;
 }
-
 .language-word,
 .frameworks-word,
 .skills-word {
@@ -394,7 +381,6 @@
   height: 24px;
   align-content: center;
 }
-
 .language-list,
 .frameworks-list,
 .skills-list {
@@ -408,15 +394,12 @@
   margin-top: 15px;
   padding: 10px;
 }
-
 .skills-list li {
   align-items: center;
 }
-
 .skills-word img {
   margin-left: 40px;
 }
-
 .language-list,
 .frameworks-list,
 .skills-list li {
@@ -424,7 +407,6 @@
   flex-direction: column;
   gap: 10px;
 }
-
 .button-contactform {
   width: 131px;
   height: 48px;
@@ -450,14 +432,11 @@
   background-color: #fff5e1;
   cursor: pointer;
 }
-
 #contactform {
-  /* width: 375px; */
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
-
 #intro-contactform {
   display: flex;
   font-family: "Inter", sans-serif;
@@ -474,7 +453,6 @@
   text-align: center;
   align-items: center;
 }
-
 #contact-input ul {
   list-style: none;
   display: flex;
@@ -482,7 +460,6 @@
   align-items: center;
   gap: 20px;
 }
-
 #name-contactform {
   height: 18px;
   left: 16px;
@@ -501,11 +478,9 @@
   width: 295px;
   transition: transform 1.5s;
 }
-
 #name-contactform:hover {
   transform: translateX(15%);
 }
-
 #text-contactform {
   left: 12px;
   right: 12px;
@@ -525,7 +500,6 @@
   padding-left: 15px;
   padding-top: 15px;
 }
-
 #contactform-line {
   width: 20rem;
   height: 1px;
@@ -534,11 +508,9 @@
   bottom: 0;
   background-color: #dbd8d7;
 }
-
 .line-contactform {
   margin-top: 120px;
 }
-
 .links-footer {
   display: flex;
   justify-content: center;
@@ -549,7 +521,6 @@
   margin-top: 30px;
   margin-bottom: 30px;
 }
-
 .linefooter-contactform {
   display: block;
   width: 35%;
@@ -557,12 +528,9 @@
   bottom: 8px;
   background: #0d151e;
   border-radius: 10px;
-
-  /* margin-left: 125px; */
   margin-bottom: 10px;
   align-self: center;
 }
-
 .project2-title2,
 .project2-title3,
 .project2-button2,
@@ -657,8 +625,6 @@
     width: 75%;
     margin-right: 0;
     white-space: nowrap;
-
-    /* overflow: hidden; */
   }
 
   #line {
@@ -673,7 +639,6 @@
     width: 90%;
     margin: 0 auto;
   }
-
   .project1 {
     grid-column: 1 / span 3;
     width: 90%;
@@ -682,7 +647,6 @@
     margin: 0;
     gap: 1rem;
   }
-
   .project1-picture {
     width: 50%;
     height: auto;
@@ -695,12 +659,10 @@
   }
 
   .project1-title h1 {
-    /* margin-top: 6rem; */
     font-size: 40px;
     line-height: 52px;
     text-align: left;
   }
-
   .project1-content {
     margin-top: 0;
     width: 30%;
@@ -717,13 +679,11 @@
     line-height: 28px;
     margin-bottom: 0;
   }
-
   .desktop-hide1,
   .desktop-hide2,
   .project2-button {
     display: none;
   }
-
   .project2-button2 {
     display: block;
     background: #ff6b00;
@@ -737,12 +697,10 @@
     color: #fff;
     margin-top: 45px;
   }
-
   .project2-button2:hover {
     background-color: #fff5e1;
     cursor: pointer;
   }
-
   .project2-title2,
   .project2-title3 {
     display: flex;
@@ -756,7 +714,6 @@
     padding-top: 3rem;
     color: #fff;
   }
-
   .project2-3 {
     display: flex;
     flex-direction: column;
@@ -769,7 +726,6 @@
     width: 100%;
     align-self: center;
   }
-
   .project2-4 {
     display: flex;
     flex-direction: column;
@@ -781,13 +737,11 @@
     height: 400px;
     width: 100%;
   }
-
   #about-section {
     background-image: url("./images/about-desktop.png");
     background-position: top 9rem right;
     background-size: 50%;
   }
-
   .about-content {
     width: 90%;
     display: flex;
@@ -798,36 +752,29 @@
     gap: 1rem;
     margin-left: 4rem;
   }
-
   .about-description {
     font-size: 20px;
     line-height: 32px;
     width: 45%;
   }
-
   .about-title {
     font-size: 72px;
     line-height: 82px;
     width: 50%;
     white-space: nowrap;
   }
-
   .skill-section {
     display: grid;
     grid-template-columns: auto auto auto;
   }
-
   .contact-writing {
     display: flex;
     margin-top: 5rem;
     align-items: center;
     align-self: center;
   }
-
   #intro-contactform {
     display: flex;
-
-    /* text-align: left; */
     width: 35%;
     margin-left: 10rem;
     margin-top: -4rem;
@@ -836,10 +783,7 @@
     line-height: 52px;
     color: #262626;
     text-align: start;
-
-    /* height: 20%; */
   }
-
   #contact-input ul {
     align-items: flex-start;
   }
@@ -847,42 +791,33 @@
   .textarea-desktop {
     display: contents;
   }
-
   form {
     width: 50%;
   }
-
   #text-contactform {
     width: 45vw;
     margin-top: 0;
   }
-
   .textarea-mobile {
     display: none;
   }
-
   #contactform-line {
     width: 45vw;
   }
-
   .button-contactform {
     margin: 1.5rem 0;
   }
-
   .footer-contactform {
     margin-top: 3rem;
     grid-column: 1 /3;
     width: 100%;
   }
-
   .footer-contactform img {
     height: 1.5rem;
   }
-
   .links-footer {
     gap: 2rem;
   }
-
   .linefooter-contactform {
     display: none;
   }

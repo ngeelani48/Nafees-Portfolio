@@ -1,6 +1,6 @@
 <a name="readme-top"></a>
 <div align="center">
-  <img src="NGeelani logo.png" alt="logo" width="140"  height="auto" />
+  <img src="./images/NGeelani logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>MY-Portfolio</b></h3>
@@ -33,7 +33,7 @@
 
 # 📖 [My-Portfolio] <a name="Portfolio: setup and mobile first"></a>
 
-**[My-Portfolio]** is a basic home page setup of my portfolio mobile version.
+**[My-Portfolio]** is a reponsive website design showing differnt aspects of my porfolio .
 
 ## 🛠 Built With <a name="Visual Studio Code"></a>
 
@@ -44,6 +44,7 @@
 ### Key Features <a name="key-features"></a>
 
 - **[Mobile website]**
+- **[Responsive website]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -51,9 +52,8 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
 
-- [Live Demo Link](Not Available)
+- [https://ngeelani48.github.io/My-Portfolio/]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -98,7 +98,7 @@ NA
 
 You can deploy this project using:
 
-NA
+https://ngeelani48.github.io/My-Portfolio/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -115,7 +115,7 @@ NA
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [Make desktop version] **[new_feature_1]**
+- [Add Accessibility features] **[new_feature_1]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
