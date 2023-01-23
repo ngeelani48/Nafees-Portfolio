@@ -98,7 +98,7 @@ NA
 
 You can deploy this project using:
 
-https://ngeelani48.github.io/My-Portfolio/
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
