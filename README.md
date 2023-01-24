@@ -111,6 +111,12 @@ https://ngeelani48.github.io/My-Portfolio/
 - Twitter: [@twitterhandle](https://twitter.com/ngeelani48)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/m-n-geelani-3446097275/)
 
+👤 **Lethabo Motloung**
+
+- GitHub: [@LethaboMot](https://github.com/LethaboMot)
+- Twitter: [@profcipher](https://twitter.com/profcipher)
+- LinkedIn: [Lethabo Motloung](https://linkedin.com/in/linkedinhandle)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
