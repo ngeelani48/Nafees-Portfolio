@@ -15,12 +15,13 @@
   align-items: center;
   height: 85px;
 }
+
 .mobile-menu {
   height: 100vh;
   position: fixed;
-  top: 0px;
-  right: 0px;
-  left: 0px;
+  top: 0;
+  right: 0;
+  left: 0;
   z-index: 10;
   flex-direction: column;
   align-items: flex-start;
@@ -28,42 +29,51 @@
   transition: top 1s ease 0s;
   display: none;
 }
+
 .nav-menu {
   display: none;
 }
+
 .mobile-menu li {
   list-style: none;
   margin-left: 2rem;
   margin-top: 2rem;
 }
+
 .mobile-menu ul {
   margin-top: 4rem;
 }
-.mobile-menu li a{
+
+.mobile-menu li a {
   display: block;
   text-decoration: solid;
-  color: #FFF5E1;
+  color: #fff5e1;
   font-weight: 700;
-font-size: 32px;
-line-height: 44px;
-font-family: "Inter", sans-serif;
+  font-size: 32px;
+  line-height: 44px;
+  font-family: "Inter", sans-serif;
 }
+
 .mobile-menu li a:hover {
   background: #ff6b00;
 }
+
 .line-mobile-menu {
   width: 90vw;
   margin-left: 1rem;
 }
- .closeMenu {
+
+.closeMenu {
   position: absolute;
   top: 3rem;
-  right:2rem
+  right: 2rem;
 }
+
 .closeMenu:hover {
   cursor: pointer;
   background: #dbd8d7;
 }
+
 .logo {
   display: flex;
   color: #fff;
@@ -96,9 +106,11 @@ font-family: "Inter", sans-serif;
   display: inline-block;
   padding: 0 1rem;
 }
+
 .menu:hover {
   cursor: pointer;
 }
+
 .my-name {
   padding-top: 40px;
   color: #ff6b00;
@@ -612,7 +624,7 @@ font-family: "Inter", sans-serif;
   .menu {
     display: none;
   }
-  
+
   .logo {
     font-size: 20px;
     line-height: 20px;
@@ -639,6 +651,7 @@ font-family: "Inter", sans-serif;
     font-style: normal;
     text-decoration: solid;
   }
+
   .nav-menu li a:hover {
     background: #ff6b00;
   }
@@ -924,6 +937,7 @@ font-family: "Inter", sans-serif;
     grid-column: 1 /span 3;
     margin-bottom: -4rem;
   }
+
   .closeMenu,
   .mobile-menu {
     display: none;
