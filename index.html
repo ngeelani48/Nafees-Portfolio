@@ -6,19 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Muhammad Nafees Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
                 
 </head>
 <body>
     <section id="main-page">
      <header class="nav-bar">
                 <a class="logo" href="#">Muhammad Nafees</a>
-                <nav class="menu" href="#"><img id="menu-icon" src="images/menu.png" alt="Menu bar">
-                <div id="nav-menu">
-                    <a href="#">Portfolio</a>
-                    <a href="">About</a>
-                    <a href="">Contact</a>
-                    <a href=""><img src="images/mail-icon.png" alt="Email icone"></a>
-                </div></nav>
+                <nav>
+                    <div class="menu"><i><img src="images/menu.png" alt="menu bar"></i></div>
+                    <ul class="nav-menu">
+                        <li><a href="#works-section">Portfolio</a></li>
+                        <li><a href="#about-section">About</a></li>
+                        <li><a href="#contactform">Contact</a></li>
+                        <li><a class="email-icon" href="#"><img src="images/mail-icon.png" alt="Email icone"></a></li>
+                    </ul>
+                </nav>
+                <div class="mobile-menu">
+                    <ul>
+                        <li><a href="#works-section">Portfolio</a></li>
+                        <hr class="line-mobile-menu">
+                        <li><a href="#about-section">About</a></li>
+                        <hr class="line-mobile-menu">
+                        <li><a href="#contactform">Contact</a></li>
+                        <hr class="line-mobile-menu">
+                        <div class="closeMenu"><i><img src="images/cross-sign.png" alt="cross icone"></i></div>
+                    </ul>
+                </div>
      </header>
         <section class="content">
             <div class="main-text">
@@ -238,7 +252,9 @@
                 
             </footer>
             <hr class="linefooter-contactform">
-        </div>        
+        </div> 
+        
+        <script src="js/main.js"></script>
     
     </body>
 </html>
