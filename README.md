@@ -3,7 +3,7 @@
   <img src="./images/NGeelani logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>MY-Portfolio</b></h3>
+  <h3><b>MY Portfolio</b></h3>
 
 </div>
 
@@ -110,6 +110,12 @@ https://ngeelani48.github.io/My-Portfolio/
 - GitHub: [@githubhandle](https://github.com/ngeelani48)
 - Twitter: [@twitterhandle](https://twitter.com/ngeelani48)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/m-n-geelani-3446097275/)
+
+👤 **Lethabo Motloung**
+
+- GitHub: [@LethaboMot](https://github.com/LethaboMot)
+- Twitter: [@profcipher](https://twitter.com/profcipher)
+- LinkedIn: [Lethabo Motloung](https://linkedin.com/in/linkedinhandle)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
