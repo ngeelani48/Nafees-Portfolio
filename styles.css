@@ -280,9 +280,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url("./images/project2.png");
-  background-repeat: no-repeat;
-  background-size: cover;
   justify-content: flex-end;
   height: 400px;
   width: 100%;
@@ -302,7 +299,7 @@
   font-size: 32px;
   line-height: 44px;
   height: 81px;
-  padding-top: 80px;
+  padding-top: 1rem;
   color: #fff;
 }
 
@@ -314,7 +311,9 @@
   font-size: 16px;
   line-height: 24px;
   color: #fff;
-  margin-top: 86px;
+  margin-top:1rem ;
+  align-self: center;
+  margin-left: 1rem;
 }
 
 .project2-tech {
@@ -338,7 +337,7 @@
   background: rgba(255, 255, 255, 0.24);
   border: none;
   padding: 10px;
-  margin-top: 15px;
+  margin-top: 1rem;
   width: 100%;
 }
 
@@ -352,7 +351,7 @@
   line-height: 24px;
   padding: 10px;
   color: #fff;
-  margin-top: 45px;
+  margin-top: 2rem;
 }
 
 .about-title {
@@ -769,12 +768,11 @@
   }
 
   .desktop-hide1,
-  .desktop-hide2,
-  .project2-button {
+  .desktop-hide2 {
     display: none;
   }
 
-  .project2-button2 {
+  .project2-button {
     display: block;
     background: #ff6b00;
     align-self: stretch;
@@ -785,51 +783,13 @@
     line-height: 24px;
     padding: 10px;
     color: #fff;
-    margin-top: 45px;
+    margin-top: 1rem;
   }
-
-  .project2-button2:hover {
-    background-color: #fff5e1;
-    cursor: pointer;
+  .project2-description {
+    margin-bottom: 3rem;
   }
-
-  .project2-title2,
-  .project2-title3 {
-    display: flex;
-    justify-content: center;
-    height: 81px;
-    font-family: "Crete Round", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 44px;
-    padding-top: 3rem;
-    color: #fff;
-  }
-
-  .project2-3 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-image: url("./images/desktop-project3.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    justify-content: flex-end;
-    height: 400px;
-    width: 100%;
-    align-self: center;
-  }
-
-  .project2-4 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-image: url("./images/desktop-project4.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    justify-content: flex-end;
-    height: 400px;
-    width: 100%;
+  .project2-title {
+  margin-bottom: 1rem;
   }
 
   #about-section {
