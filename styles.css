@@ -742,10 +742,11 @@
   }
 
   .details-image {
-    width: 659px;
+    width: 50%;
     height: 400px;
     margin-left: 1.5rem;
     margin-bottom: 1.5rem;
+    min-width: 659px;
   }
 
   .details-content {
@@ -768,7 +769,7 @@
   }
 
   .details-button {
-    margin-top: 12rem;
+    margin-top: 7rem;
   }
 
   .nav-bar {
