@@ -71,7 +71,8 @@ const array =[
     }
 ]
 const project=document.querySelector('#works-section');
-const details=document.querySelector('.project-details');
+const details=document.querySelector('.popup-details');
+
 project.innerHTML= `<div class="project1">
 <div class="project1-picture">
     <img src="${array[0].image}" alt="project1 image">
@@ -85,7 +86,7 @@ project.innerHTML= `<div class="project1">
         <li><button>${array[0].tech[2]}</button></li>
         <li><button>${array[0].tech[3]}</button></li>
     </ul>
-    <button id=${array[0].id} onclick="open(this.id)" class="project1-button">See Project</button>
+    <button id="${array[0].id}" onclick="popup(this.id)" class="project1-button">See Project</button>
 </div>
 </div>`;
 for (let i=1; i<array.length;i++){
@@ -97,31 +98,36 @@ for (let i=1; i<array.length;i++){
             <li><button>${array[i].tech[1]}</button></li>
             <li><button>${array[i].tech[2]}</button></li>
         </ul>
-        <button id=${array[i].id} onclick="open(this.id)" class="project2-button">See Project</button>  
+        <button id="${array[i].id}" onclick="popup(this.id)" class="project2-button">See Project</button>  
 </div>`;
 }
-function open (id){
+function popup(id){
     details.style.visibility='visible';
     for(let j=0; j<array.length; j++){
         if (id===array[j].id){
             details.innerHTML=`<div class="project-details">
-            <h2 class="detail-title">${array[j].name}</h2>
-            <div class="detail-cross" onclick="close"><img src="/images/blackcross.png" alt=""></div>
-            <ul class="details.tech">
+            <h2 class="details-title">${array[j].name}</h2>
+            <div class="details-cross" onclick="closepopup()"><img src="/images/blackcross.png" alt=""></div>
+            <ul class="details-tech">
                 <li><button>${array[j].tech[0]}</button></li>
                 <li><button>${array[j].tech[1]}</button></li>
                 <li><button>${array[j].tech[2]}</button></li>
             </ul>
-            <img class="detail-image" src="${array[j].image}" alt="Project image">
-            <p class="detail-description">${array[j].longdescription}</p>
-            <ul>
-                <li><button>See Live</button></li>
-                <li><button>See Source</button></li>
+            <div class="details-content">
+            <img class="details-image" src="${array[j].image}" alt="Project image">
+            <div class="details-text">
+            <p class="details-description">${array[j].longdescription}</p>
+            <ul class="details-button">
+            <li><button>See Live <img src="/images/icon-seelive.png" alt="see live icon"></button></li>
+            <li><button>See Source <img src="/images/github.png" alt="github icon"></button></li>
             </ul>
+            </div>
+            </div>
         </div>`;
         }
     }
 }
-function close() {
+
+function closepopup() {
     details.style.visibility='hidden';
 }
