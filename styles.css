@@ -696,6 +696,58 @@ color:#fff;
 }
 @media (min-width: 768px) {
   /* popup */
+  .popup-details {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    backdrop-filter: blur(7px);
+    z-index: 10;
+    justify-content: center;
+}
+  .project-details{
+    width: 85vw;
+    height: 85vh;
+    margin-left: 1rem;
+  }
+  .details-title {
+font-family: "Crete Round", sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 44px;
+color: #172B4D;
+  }
+  .details-tech{
+    margin-top: -3rem;
+    margin-bottom: 3rem;
+  }
+  .details-image {
+    width: 659px;
+    height: 448px;
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .details-content {
+    display: flex;
+    gap: 1rem;
+  }
+  .details-text {
+    display: flex;
+    flex-direction: column;
+  }
+  .details-description {
+    width: 80%;
+  }
+  .details-cross {
+    right: 8rem;
+    top: 5rem;
+  }
+  .details-button {
+    margin-top: 12rem;
+  }
   .nav-bar {
     justify-content: space-between;
     align-items: center;
