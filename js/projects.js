@@ -94,8 +94,8 @@ function popup(id) {
               <div class="details-text">
               <p class="details-description">${array[j].longdescription}</p>
               <ul class="details-button">
-              <li><button>See Live <img src="/images/icon-seelive.png" alt="see live icon"></button></li>
-              <li><button>See Source <img src="/images/github.png" alt="github icon"></button></li>
+              <li><button href=${array[j].liveproject}>See Live <img src="/images/icon-seelive.png" alt="see live icon"></button></li>
+              <li><button href=${array[j].sourcelink}>See Source <img src="/images/github.png" alt="github icon"></button></li>
               </ul>
               </div>
               </div>
