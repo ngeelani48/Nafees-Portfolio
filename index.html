@@ -226,9 +226,10 @@
             <p id="intro-contactform">I'm always <br> interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
             <form action="https://formspree.io/f/xoqzvdpw" id="contact-input" method="post">
                 <ul>
-                    <li><label for="Name_input"></label><input type="text" id="name-contactform" name="Full name" placeholder="Full name" maxlength="30" required></li>
+                    <li><label for="Name_input"></label><input type="text" class="name-contactform" name="Full name" placeholder="Full name" maxlength="30" required></li>
                     <hr id="contactform-line">
-                    <li><label for="Email_input"></label><input type="email" id="name-contactform" class="email" name="Email address" placeholder="Email address" required></li>
+                    <li><label for="Email_input"></label><input type="email" id="email" class="name-contactform" name="Email address" placeholder="Email address" required></li>
+                    <p id="err"></p>
                     <hr id="contactform-line">
                     <div class="textarea-mobile">
                     <li><label for="Message_input"></label><textarea name="Enter text here" id="text-contactform" placeholder="Enter text here" maxlength="500" required></textarea></li>
@@ -237,8 +238,7 @@
                     <li><label for="Message_input"></label><textarea name="Enter text here" id="text-contactform" cols="30" rows="10" placeholder="Hello. I would like to get in touch with you..." maxlength="500" required></textarea></li>
                 </div>
                 </ul>
-                <button type="submit" class="button-contactform">Get in touch</button>
-                <span id="error-message"></span>
+                <button type="submit" id="form-button" class="button-contactform">Get in touch</button>
             </form>
         </div>
             <hr class="line-contactform">
@@ -254,7 +254,7 @@
             </footer>
             <hr class="linefooter-contactform">
         </div> 
-        
+        <script src="js/validation.js"></script>
         <script src="js/main.js"></script>
     
     </body>
