@@ -614,6 +614,9 @@
 .textarea-desktop {
   display: none;
 }
+#err {
+  width: 50%;
+}
 
 @media (min-width: 768px) {
   .nav-bar {
