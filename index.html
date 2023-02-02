@@ -228,7 +228,7 @@
                 <ul>
                     <li><label for="Name_input"></label><input type="text" id="name-contactform" name="Full name" placeholder="Full name" maxlength="30" required></li>
                     <hr id="contactform-line">
-                    <li><label for="Email_input"></label><input type="email" id="name-contactform" name="Email address" placeholder="Email address" required></li>
+                    <li><label for="Email_input"></label><input type="email" id="name-contactform" class="email" name="Email address" placeholder="Email address" required></li>
                     <hr id="contactform-line">
                     <div class="textarea-mobile">
                     <li><label for="Message_input"></label><textarea name="Enter text here" id="text-contactform" placeholder="Enter text here" maxlength="500" required></textarea></li>
@@ -238,6 +238,7 @@
                 </div>
                 </ul>
                 <button type="submit" class="button-contactform">Get in touch</button>
+                <span id="error-message"></span>
             </form>
         </div>
             <hr class="line-contactform">
