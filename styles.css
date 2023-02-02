@@ -686,9 +686,19 @@
 }
 
 .details-button button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
   padding: 0.7rem;
   background: #ff6b00;
   color: #fff;
+}
+.details-button button a{
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  gap: 10px;
+  align-items: center;
 }
 
 .details-button button:hover {

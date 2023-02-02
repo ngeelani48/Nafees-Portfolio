@@ -14,7 +14,7 @@ const array = [
     name: 'Profesional Art<br> Printing Data',
     shortdescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
     longdescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
-    image: './images/Project2.png',
+    image: './images/project2.png',
     tech: ['html', 'bootstrap', 'Ruby'],
     liveproject: 'https://ngeelani48.github.io/My-Portfolio/',
     sourcelink: 'https://github.com/ngeelani48/My-Portfolio',
@@ -44,7 +44,7 @@ const array = [
     name: 'Profesional Art<br> Printing Data',
     shortdescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
     longdescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
-    image: './images/Project2.png',
+    image: './images/project2.png',
     tech: ['html', 'bootstrap', 'Ruby'],
     liveproject: 'https://ngeelani48.github.io/My-Portfolio/',
     sourcelink: 'https://github.com/ngeelani48/My-Portfolio',
@@ -83,7 +83,7 @@ function popup(id) {
     if (id === array[j].id) {
       details.innerHTML = `<div class="project-details">
               <h2 class="details-title">${array[j].name}</h2>
-              <div class="details-cross" onclick="closepopup()"><img src="/images/blackcross.png" alt=""></div>
+              <div class="details-cross" onclick="closepopup()"><img src="./images/blackcross.png" alt=""></div>
               <ul class="details-tech">
                   <li><button>${array[j].tech[0]}</button></li>
                   <li><button>${array[j].tech[1]}</button></li>
@@ -94,8 +94,8 @@ function popup(id) {
               <div class="details-text">
               <p class="details-description">${array[j].longdescription}</p>
               <ul class="details-button">
-              <li><button href=${array[j].liveproject}>See Live <img src="./images/icon-seelive.png" alt="see live icon"></button></li>
-              <li><button href=${array[j].sourcelink}>See Source <img src="./images/github.png" alt="github icon"></button></li>
+              <li><button> <a href="${array[j].liveproject}" target="_blank" >See Live <img src="./images/icon-seelive.png" alt="see live icon"></a></button></li>
+              <li><button><a href="${array[j].sourcelink}" target="_blank">See Source <img src="./images/github.png" alt="github icon"></a></button></li>
               </ul>
               </div>
               </div>
