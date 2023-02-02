@@ -322,10 +322,6 @@
   gap: 10px;
 }
 
-.project5-tech {
-  align-self: baseline;
-}
-
 .project2-tech button {
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -605,13 +601,6 @@
   border-radius: 10px;
   margin-bottom: 10px;
   align-self: center;
-}
-
-.project2-title2,
-.project2-title3,
-.project2-button2,
-.textarea-desktop {
-  display: none;
 }
 
 /* popup */
@@ -922,11 +911,6 @@
     font-size: 20px;
     line-height: 28px;
     margin-bottom: 0;
-  }
-
-  .desktop-hide1,
-  .desktop-hide2 {
-    display: none;
   }
 
   .project2-button {
