@@ -54,6 +54,14 @@
   font-family: "Inter", sans-serif;
 }
 
+.details-button button a {
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
 .mobile-menu li a:hover {
   background: #ff6b00;
 }
@@ -692,13 +700,6 @@
   padding: 0.7rem;
   background: #ff6b00;
   color: #fff;
-}
-.details-button button a{
-  text-decoration: none;
-  color: #fff;
-  display: flex;
-  gap: 10px;
-  align-items: center;
 }
 
 .details-button button:hover {
