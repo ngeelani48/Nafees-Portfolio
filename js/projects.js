@@ -1,13 +1,13 @@
 const array = [
   {
     id: '1',
-    name: 'Multi-Post-Stories',
-    shortdescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
-    longdescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
-    image: './images/Project 1.png',
-    tech: ['css', 'html', 'bootstrap', 'Ruby'],
-    liveproject: 'https://ngeelani48.github.io/My-Portfolio/',
-    sourcelink: 'https://github.com/ngeelani48/My-Portfolio',
+    name: 'Awesome Books',
+    shortdescription: 'Awesome Books is a book list application which stores our favourite books. User and add and remove books to the list and all the data will be stores in their local device in localStorage.',
+    longdescription: 'Awesome Books is a book list application that stores our favorite books. Users add and remove books to the list and all the data will be stored in their local device in localStorage.This Project was made during my study at Microverse, Which is an online software development school. This project is made using ES6 modules which can be said an advancement to using JavaScript also this project can be helpful for new learners and they can refer to and learn about this new technique used in it.',
+    image: './images/Awesomebooks.png',
+    tech: ['CSS', 'HTML', 'JavaScript', 'ES6 modules'],
+    liveproject: 'https://ngeelani48.github.io/Awsome-books-ES6/',
+    sourcelink: 'https://github.com/ngeelani48/Awsome-books-ES6',
   },
   {
     id: '2',
