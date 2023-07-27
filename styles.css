@@ -291,6 +291,8 @@
   width: 100%;
   align-self: center;
   transition: width 3s, ease-in, height 1s;
+  padding: 0% 8% 0% 8%;
+  background-color: rgba(0,0,0,0);
 }
 
 .project2:hover {
@@ -302,12 +304,13 @@
   font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 32px;
+  font-size: 1.5rem;
   line-height: 44px;
   height: 81px;
   padding-top: 1rem;
   color: #091e42;
   margin-left: -10%;
+  text-align: center;
 }
 
 .project2-description {
