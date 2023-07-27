@@ -216,12 +216,13 @@
   padding-top: 0.5rem;
   align-items: center;
   gap: 0;
+  margin: 10%;
 }
 
 .project1-picture {
-  width: 100%;
-  padding-top: 10%;
-  height: 20rem;
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
   transition: width 3s, ease-in, height 1s;
 }
 
@@ -237,7 +238,7 @@
   font-weight: 400;
   font-size: 32px;
   line-height: 44px;
-  margin-top: 0;
+  margin-top: 10px;
 }
 
 .project1-description {
@@ -290,9 +291,9 @@
   height: 400px;
   width: 100%;
   align-self: center;
+  overflow: hidden;
+  padding: 0;
   transition: width 3s, ease-in, height 1s;
-  padding: 0% 8% 0% 8%;
-  background-color: rgba(0,0,0,0);
 }
 
 .project2:hover {
@@ -304,12 +305,10 @@
   font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   line-height: 44px;
   height: 81px;
-  padding-top: 1rem;
   color: #091e42;
-  margin-left: -10%;
   text-align: center;
 }
 
@@ -321,9 +320,7 @@
   font-size: 16px;
   line-height: 24px;
   color: #091e42;
-  margin-top: 1rem;
-  align-self: center;
-  margin-left: 1rem;
+  text-align: center;
 }
 
 .project2-tech {
