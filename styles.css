@@ -577,10 +577,6 @@
   padding-top: 15px;
 }
 
-.textarea-desktop {
-  display: none;
-}
-
 #err {
   width: 50%;
   color: #f4f5f7;
@@ -781,7 +777,7 @@
   .details-button {
     position: fixed;
     top: 80%;
-    right: 7%
+    right: 7%;
   }
 
   .nav-bar {
@@ -1027,10 +1023,6 @@
   .message-contactform {
     width: 45vw;
     margin-top: 0;
-  }
-
-  .textarea-mobile {
-    display: none;
   }
 
   #contactform-line {
