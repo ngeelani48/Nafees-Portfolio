@@ -17,3 +17,12 @@ menuitems.forEach((item) => {
 });
 openMenu.addEventListener('click', show);
 closeMenu.addEventListener('click', close);
+
+// For different placeholders for mobile and desktop
+const textarea = document.querySelector('.message-contactform');
+
+if (window.innerWidth < 768) {
+  textarea.placeholder = 'Enter text here'; // For mobile
+} else {
+  textarea.placeholder = 'Hello. I would like to get in touch with you...'; // For desktop
+}
