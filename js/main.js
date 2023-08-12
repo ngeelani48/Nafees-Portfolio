@@ -26,3 +26,40 @@ if (window.innerWidth < 768) {
 } else {
   textarea.placeholder = 'Hello. I would like to get in touch with you...'; // For desktop
 }
+
+// Array of different professions
+const professions = [
+  "Full Stack Developer",
+  "Back End Developer",
+  "Front End Developer",
+  // Add more professions as needed
+];
+
+const professionElement = document.getElementById("dynamic-profession").querySelector("span");
+
+let professionIndex = 0;
+let charIndex = 0;
+
+function typeWriter() {
+  if (charIndex < professions[professionIndex].length) {
+    professionElement.textContent += professions[professionIndex].charAt(charIndex);
+    charIndex++;
+    setTimeout(typeWriter, 100); // Adjust the typing speed here
+  } else {
+    setTimeout(eraseText, 1000); // Pause before erasing
+  }
+}
+
+function eraseText() {
+  if (charIndex > 0) {
+    professionElement.textContent = professions[professionIndex].substring(0, charIndex - 1);
+    charIndex--;
+    setTimeout(eraseText, 50); // Adjust the erasing speed here
+  } else {
+    professionIndex = (professionIndex + 1) % professions.length;
+    setTimeout(typeWriter, 500); // Pause before typing next profession
+  }
+}
+
+// Initial call to start the typewriter effect
+typeWriter();

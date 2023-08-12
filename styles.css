@@ -96,16 +96,16 @@
   animation-duration: 3s;
   animation-timing-function: ease-in-out;
   animation-delay: 1s;
-  animation-iteration-count: 1;
+  animation-iteration-count: infinite;
 }
 
 @keyframes logoo {
   from {
-    transform: rotate(0deg);
+    transform: rotateY(0deg);
   }
 
   to {
-    transform: rotate(359deg);
+    transform: rotateY(359deg);
   }
 }
 
@@ -117,6 +117,24 @@
 
 .menu:hover {
   cursor: pointer;
+}
+
+/* Keyframes for the animation */
+@keyframes slide-in {
+  from {
+    transform: translateX(-100%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+.my-name,
+.profession,
+.i-can-do,
+.links {
+  animation: slide-in 1s ease-out;
 }
 
 .my-name {
