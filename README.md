@@ -53,7 +53,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [https://ngeelani48.github.io/My-Portfolio/]
+- [https://ngeelani48.github.io/Nafees-Portfolio/]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
