@@ -29,37 +29,37 @@ if (window.innerWidth < 768) {
 
 // Array of different professions
 const professions = [
-  "Full Stack Developer",
-  "Back End Developer",
-  "Front End Developer",
+  'Full Stack Developer',
+  'Back End Developer',
+  'Front End Developer',
   // Add more professions as needed
 ];
 
-const professionElement = document.getElementById("dynamic-profession").querySelector("span");
+const professionElement = document.getElementById('dynamic-profession').querySelector('span');
 
 let professionIndex = 0;
 let charIndex = 0;
 
-function typeWriter() {
-  if (charIndex < professions[professionIndex].length) {
-    professionElement.textContent += professions[professionIndex].charAt(charIndex);
-    charIndex++;
-    setTimeout(typeWriter, 100); // Adjust the typing speed here
-  } else {
-    setTimeout(eraseText, 1000); // Pause before erasing
-  }
-}
-
 function eraseText() {
   if (charIndex > 0) {
     professionElement.textContent = professions[professionIndex].substring(0, charIndex - 1);
-    charIndex--;
-    setTimeout(eraseText, 50); // Adjust the erasing speed here
+    charIndex -= 1;
+    setTimeout(eraseText, 50);
   } else {
     professionIndex = (professionIndex + 1) % professions.length;
-    setTimeout(typeWriter, 500); // Pause before typing next profession
+    // eslint-disable-next-line
+    setTimeout(typeWriter, 500);
   }
 }
 
-// Initial call to start the typewriter effect
+function typeWriter() {
+  if (charIndex < professions[professionIndex].length) {
+    professionElement.textContent += professions[professionIndex].charAt(charIndex);
+    charIndex += 1;
+    setTimeout(typeWriter, 100);
+  } else {
+    setTimeout(eraseText, 1000);
+  }
+}
+
 typeWriter();
