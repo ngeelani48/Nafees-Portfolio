@@ -33,7 +33,7 @@
 
 # 📖 [My-Portfolio] <a name="Portfolio: setup and mobile first"></a>
 
-**[My-Portfolio]** is a reponsive website design showing differnt aspects of my porfolio .
+**[My-Portfolio]** is a responsive website design showing different aspects of my portfolio.
 
 ## 🛠 Built With <a name="Visual Studio Code"></a>
 
@@ -53,13 +53,13 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [https://ngeelani48.github.io/Nafees-Portfolio/]
+- [https://mnafees.onrender.com/]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-If you are a new developer then you can learn basic Flexbox feature from this project.
+If you are a new developer then you can learn basic Flexbox features from this project.
 
 To get a local copy up and running, follow these steps.
 
