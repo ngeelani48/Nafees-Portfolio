@@ -417,6 +417,7 @@
   border: none;
   color: #fff;
   margin-top: 2rem;
+  white-space: nowrap;
 }
 
 #about-section {
@@ -513,6 +514,7 @@
   letter-spacing: 0.03em;
   display: table;
   margin: 1.5rem auto;
+  white-space: nowrap;
 }
 
 .button-resume:hover,
